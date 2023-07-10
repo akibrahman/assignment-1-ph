@@ -70,7 +70,7 @@
   justify-content: center;
 }
 .f-content div {
-  width: 415px;
+  width: 400px;
   height: 480px;
   background-repeat: no-repeat;
   background-size: 70%;
@@ -104,7 +104,7 @@
 
 /* Speciality Section Style  */
 .special {
-  width: 69%;
+  width: 1160px;
   background-color: #f4f4f4;
   margin: 0 auto;
   display: flex;
@@ -187,5 +187,52 @@
   justify-content: center;
 }
 .insta-imgs img {
-  width: 285px;
+  width: 300px;
+}
+
+/* Subscription Section Style  */
+.sub-container {
+  width: 1260px;
+  margin: 130px auto;
+  background-image: url(./assets/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 120px 0;
+  margin-bottom: 1000px;
+}
+.sub-container h2 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.sub-container p {
+  color: #27272799;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+.sub-container input[type="email"] {
+  border: none;
+  width: 700px;
+  padding: 20px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+.sub-container input[type="submit"] {
+  width: 180px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 0;
+  border: none;
+  margin-left: 15px;
 }
