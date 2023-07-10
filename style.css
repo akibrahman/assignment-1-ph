@@ -202,6 +202,7 @@
   background-image: url(./assets/Rectangle\ 9.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
