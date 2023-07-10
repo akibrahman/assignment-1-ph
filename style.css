@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+/* Banner Section Style  */
+.banner {
+  height: 100vh; /*This value is learnt from youtube */
+  background-color: #fceef1;
+  background-image: url(./assets/pngwing\ 10.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 36%;
+}
+.banner-content {
+  width: 40%; /*This value is learnt from Google */
+  height: 100%;
+  padding-left: 240px;
+  display: flex;
+  flex-direction: column; /*This value is learnt from Google */
+  justify-content: center;
+}
+.banner-content h1 {
+  color: #272727;
+  font-size: 62px;
+  font-weight: 800;
+}
+.banner-content p {
+  margin: 32px 0;
+  color: #aca3a5;
+  font-size: 18px;
+  line-height: 30px;
+}
+.banner-content button {
+  width: 180px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 0;
+  border: none;
+}
