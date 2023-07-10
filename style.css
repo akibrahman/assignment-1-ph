@@ -54,7 +54,6 @@
 .featured {
   background-color: #fff;
   margin: 180px 0;
-  margin-bottom: 10000px;
 }
 .f-subtitle {
   /*f-subtitle means Featured-subtitle */
@@ -101,4 +100,28 @@
 .f-content .fig-3 {
   background-color: #e3ebdb;
   background-image: url(./assets/pngwing\ 7.png);
+}
+
+/* Speciality Section Style  */
+.special {
+  width: 69%;
+  background-color: #f4f4f4;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+.s-item img {
+  display: block;
+  width: 90px;
+  margin: 0 auto;
+}
+.s-item p {
+  /* s-item means special-items */
+  color: #272727cc;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 30px 0;
+  border-radius: 8px;
 }
