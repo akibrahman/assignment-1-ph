@@ -104,7 +104,7 @@
 
 /* Speciality Section Style  */
 .special {
-  width: 1160px;
+  width: 70%;
   background-color: #f4f4f4;
   margin: 0 auto;
   display: flex;
@@ -173,6 +173,10 @@
 }
 
 /* Instagram Section Style  */
+.insta-container {
+  width: 70%;
+  margin: 0 auto;
+}
 .i-subtitle {
   color: #aca3a5;
   text-align: center;
@@ -185,6 +189,7 @@
   display: flex;
   gap: 20px;
   justify-content: center;
+  align-items: center;
 }
 .insta-imgs img {
   width: 300px;
@@ -192,7 +197,7 @@
 
 /* Subscription Section Style  */
 .sub-container {
-  width: 1260px;
+  width: 70%;
   margin: 130px auto;
   background-image: url(./assets/Rectangle\ 9.png);
   background-repeat: no-repeat;
@@ -202,7 +207,7 @@
   align-items: center;
   flex-direction: column;
   gap: 10px;
-  padding: 120px 0;
+  padding: 120px 40px;
 }
 .sub-container h2 {
   color: #272727;
