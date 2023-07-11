@@ -220,7 +220,7 @@
 /* Subscription Section Style  */
 .sub-container {
   width: 70%;
-  margin: 100px auto;
+  margin: 50px auto;
   background-image: url(./assets/Rectangle\ 9.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -262,6 +262,63 @@
   padding: 20px 0;
   border: none;
   margin-left: 15px;
+}
+
+/* Contact Section  */
+.contact {
+  width: 69%;
+  background-color: #fceef1;
+  margin: 0 auto;
+  padding: 10px 50px 50px 50px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.contact h2 {
+  margin: 30px 0;
+  margin-bottom: 10px;
+}
+.contact p {
+  color: #27272799;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.c-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.c-form label {
+  font-size: 30px;
+  width: 150px;
+  font-weight: 700;
+  color: #27272799;
+}
+.c-form > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.c-form input,
+.c-form textarea {
+  padding: 20px;
+  font-size: 22px;
+  outline: none;
+  border: none;
+  width: 500px;
+}
+.c-form input[type="submit"] {
+  width: 180px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #e55473;
+  margin-top: 20px;
+  padding: 20px 0;
+  border: none;
 }
 
 /* Footer Style  */
