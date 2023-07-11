@@ -329,19 +329,27 @@
 /* Footer Style  */
 footer {
   background-color: #111010;
+}
+.footer-container {
+  background-color: #111010;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  padding: 100px 0;
+}
+.f-left {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 26px;
-  color: #fff;
-  padding: 130px 0;
+  gap: 30px;
 }
-footer h1 {
+.f-left h1 {
   font-size: 48px;
   font-weight: 800;
 }
-footer span {
+.f-left span {
   color: #e55473;
 }
 .f-description {
@@ -359,7 +367,19 @@ footer span {
   color: #e55473;
   cursor: pointer;
 }
+.f-right h2 {
+  margin-bottom: 30px;
+}
+.f-right li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.f-right i {
+  margin-right: 20px;
+}
 footer .copy-r {
   color: #ffffff66;
   font-size: 16px;
+  text-align: center;
+  padding-bottom: 25px;
 }
