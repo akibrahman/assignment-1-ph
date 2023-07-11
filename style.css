@@ -19,6 +19,27 @@
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: 36%;
+  position: relative;
+}
+/* Navigation Bar Style  */
+.banner nav {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+  font-size: 18px;
+  font-weight: 00;
+  padding-left: 240px;
+  position: absolute;
+  top: 30px;
+}
+.banner nav a {
+  color: #000;
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 10px;
+  background-color: #e25e7bc9;
+  color: #fff;
+  box-shadow: 3px 3px 8px 0px gray;
 }
 .banner-content {
   width: 40%; /*This value is learnt from Google */
