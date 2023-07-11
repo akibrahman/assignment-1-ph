@@ -340,6 +340,7 @@ footer {
   padding: 100px 0;
 }
 .f-left {
+  /* f-left means footer-left */
   display: flex;
   flex-direction: column;
   align-items: center;
