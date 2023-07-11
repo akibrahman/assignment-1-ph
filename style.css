@@ -90,9 +90,9 @@
   gap: 30px;
   justify-content: center;
 }
-.f-content div {
+.f-content > div {
   width: 24%;
-  height: 450px;
+  height: 380px;
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: bottom center;
@@ -219,7 +219,7 @@
 /* Subscription Section Style  */
 .sub-container {
   width: 70%;
-  margin: 130px auto;
+  margin: 100px auto;
   background-image: url(./assets/Rectangle\ 9.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -286,6 +286,15 @@ footer span {
   text-align: center;
   font-size: 18px;
   line-height: 30px;
+}
+.social-links {
+  display: flex;
+  gap: 50px;
+  font-size: 30px;
+}
+.social-links i:hover {
+  color: #e55473;
+  cursor: pointer;
 }
 footer .copy-r {
   color: #ffffff66;
