@@ -295,7 +295,7 @@
   gap: 30px;
 }
 .c-form label {
-  font-size: 30px;
+  font-size: 25px;
   width: 150px;
   font-weight: 700;
   color: #27272799;
@@ -313,6 +313,7 @@
   border: none;
   width: 500px;
   border-radius: 10px;
+  border-left: 5px solid #e55473ce;
 }
 .c-form input[type="submit"] {
   width: 180px;
